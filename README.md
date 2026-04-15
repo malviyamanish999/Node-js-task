@@ -43,10 +43,10 @@ npm install
 ```env
 DB_HOST=localhost
 DB_PORT=5432
-DB_USERNAME=""
-DB_PASSWORD=""
-DB_DATABASE=tasks_db
-PORT=3000
+DB_USERNAME="DB_USERNAME"
+DB_PASSWORD="DB_PASSWORD"
+DB_DATABASE="DB_DATABASE"
+PORT=5000
 ```
 
 ## Running the Application
@@ -59,11 +59,11 @@ npm run start:dev
 npm run start:prod
 ```
 
-The API will be available at `http://localhost:3000`
+The API will be available at `http://localhost:5000`
 
 ## API Documentation
 
-Once the application is running, visit `http://localhost:3000/api` to access the interactive Swagger documentation.
+Once the application is running, visit `http://localhost:5000/api` to access the interactive Swagger documentation.
 
 ## API Endpoints
 
